@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    yellow,
+    orange,
+    red,
+    purple,
+    green,
+    blue
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container {
+  margin: 100px auto;
+  padding: 50px;
+  width: 50%;
+  background-color: beige;
+  text-align: center;
+  font-size: 22px;
+}
